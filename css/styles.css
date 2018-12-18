@@ -69,17 +69,6 @@ body {
   right: 30%;
 }
 
-@media (max-width: 1050px) {
-  .title-image {
-    position: static;
-    transform: rotate(0deg);
-  }
-
-  #title {
-     text-align: center;
-  }
-}
-
 /* Features Section */
 #features {
   padding: 7% 15%;
@@ -137,4 +126,44 @@ body {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* CTA section */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section  */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* media */
+
+@media (max-width: 1050px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title {
+     text-align: center;
+  }
 }
